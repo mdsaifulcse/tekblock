@@ -173,7 +173,7 @@ class CourseController extends Controller
             $link=str_replace('.', '', $link);
             $link=substr($link,0,50);
             $link=strtolower($link);
-           return $input['url']=$link;
+            $input['url']=$link;
 
 
             if ($request->start_date){
